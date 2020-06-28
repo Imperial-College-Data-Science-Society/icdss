@@ -1,5 +1,5 @@
 #baseURL = "https://aihack.org/"
-baseURL = "icdss.github.io"
+baseURL = "https://icdss.club"
 languageCode = "en-us"
 title = "AI HACK 2020"
 enableRobotsTXT = true
