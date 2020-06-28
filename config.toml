@@ -1,0 +1,7 @@
+baseURL = "https://aihack.org/"
+languageCode = "en-us"
+title = "AI HACK 2020"
+enableRobotsTXT = true
+
+[permalinks]
+  pages = "/:title/"
