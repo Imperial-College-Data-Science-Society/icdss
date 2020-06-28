@@ -1,7 +1,7 @@
 #baseURL = "https://aihack.org/"
 baseURL = "https://icdss.club"
 languageCode = "en-us"
-title = "AI HACK 2020"
+title = "Imperial College Data Science Society"
 enableRobotsTXT = true
 
 [permalinks]
