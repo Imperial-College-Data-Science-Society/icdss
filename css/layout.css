@@ -380,7 +380,7 @@ h4 {
   	[Footer]
 ------------------------------------------------------------------*/
 .footer {
-  background: url(../img/1920x1080/03.jpg) no-repeat;
+  background: url(../img/1920x1080/footer_image.jpg) no-repeat;
   background-size: cover;
   background-position: center center; }
   .footer .footer-seperator {
@@ -398,6 +398,9 @@ h4 {
     background: rgba(0, 0, 0, 0.15); }
   .footer .footer-logo {
     width: 85px;
+    height: auto; }
+  .footer .footer-contactlogo {
+    width: 50px;
     height: auto; }
 
 /*------------------------------------------------------------------
@@ -771,8 +774,8 @@ h4 {
   transform: translate3d(0, -50%, 0); }
 
 .carousel-title {
-  font-size: 70px;
-  font-weight: 500;
+  font-size: 60px;
+  font-weight: 400;
   color: #fff;
   line-height: 1.1;
   text-transform: uppercase; }
