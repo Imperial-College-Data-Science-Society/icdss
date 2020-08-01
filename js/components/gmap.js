@@ -30,13 +30,13 @@ window.initMap = function() {
 
   var customMapTypeId = 'custom_style';
 
-  var brooklyn = {lat: 41.850, lng: -73.961};
+  var imperial = {lat: 51.500484, lng: -0.178183};
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 6,
     scrollwheel: false,
     streetViewControl: false,
     mapTypeControl: false,
-    center: brooklyn, // Brooklyn.
+    center: imperial, // Imperial College Union.
     mapTypeControlOptions: {
       mapTypeIds: [google.maps.MapTypeId.ROADMAP, customMapTypeId]
     }
