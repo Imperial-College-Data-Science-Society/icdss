@@ -9,14 +9,26 @@
   }
 
 .service {
-	padding: 30px;
-	background-image: url('../img/640x380/talk.jpg');
+	padding: 10px;
+	.service-workshops {
+		background-image: url('../img/640x380/talk.jpg');
+	}
+	.service-hackathons {
+		background-image: url('../img/640x380/students_for_ai.jpg');
+	}
+	.service-projects {
+		background-image: url('../img/640x380/test.jpg');
+	}
+	.service-industry {
+		background-image: url('../img/640x380/ai_hack.jpg');
+	}
 	.service-element
 	.service-info {
 		@include translate3d(0,0,0);
 		@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+		
 	}
-
+	
 	.service-icon {
 		display: block;
 		@include font($size: 30px);
