@@ -44,7 +44,7 @@
 }
 
 .carousel-centered {
-    @include position(absolute, $top: 60%);
+    @include position(absolute, $top: 50%);
     @include translate3d(0,-50%,0);
 }
 

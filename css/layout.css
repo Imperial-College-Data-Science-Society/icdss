@@ -32,7 +32,7 @@ body {
   font-family: Hind, sans-serif; }
 
 p {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   font-family: Hind, sans-serif;
   color: #a6a7aa;
@@ -137,6 +137,9 @@ h4 {
   z-index: 3;
   text-decoration: none; }
 
+.center {
+  text-align: center; }
+
 /*------------------------------------------------------------------
   	[Blockquote]
 ------------------------------------------------------------------*/
@@ -227,6 +230,11 @@ h4 {
 
 .btn-theme-sm {
   font-size: 13px;
+  font-weight: 600;
+  padding: 15px 30px; }
+
+.btn-theme-bg {
+  font-size: 20px;
   font-weight: 600;
   padding: 15px 30px; }
 
@@ -405,22 +413,30 @@ h4 {
 /*------------------------------------------------------------------
   	[Service]
 ------------------------------------------------------------------*/
-.extra_layer {
-  background-color: rgba(255, 255, 255, 0.7);
+.extra_layer_black {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
   padding: 20px;
   width: 100%;
   height: 100%; }
 
+.extra_layer {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  width: 100%;
+  height: 100%; }
+
 .service {
-  padding: 10px; }
-  .service .service-workshops {
-    background-image: url("../img/640x380/talk.jpg"); }
-  .service .service-hackathons {
-    background-image: url("../img/640x380/students_for_ai.jpg"); }
-  .service .service-projects {
-    background-image: url("../img/640x380/test.jpg"); }
-  .service .service-industry {
+  padding: 15px;
+  background-repeat: no-repeat;
+  background: #fff; }
+  .service.service-workshops {
+    background-image: url("../img/640x380/workshop.jpg"); }
+  .service.service-hackathons {
     background-image: url("../img/640x380/ai_hack.jpg"); }
+  .service.service-projects {
+    background-image: url("../img/640x380/projects.jpg"); }
+  .service.service-industry {
+    background-image: url("../img/640x380/talk.jpg"); }
   .service .service-element
 .service-info {
     -webkit-transform: translate3d(0, 0, 0);
@@ -886,7 +902,7 @@ h4 {
 
 .carousel-centered {
   position: absolute;
-  top: 60%;
+  top: 50%;
   -webkit-transform: translate3d(0, -50%, 0);
   -moz-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0); }

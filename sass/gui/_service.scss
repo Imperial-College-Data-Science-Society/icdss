@@ -1,26 +1,33 @@
 /*------------------------------------------------------------------
   	[Service]
 ------------------------------------------------------------------*/
-.extra_layer{
-	background-color: rgba(255, 255, 255, 0.7);
+.extra_layer_black{
+	background-image: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0));
 	padding: 20px;
 	width:100%;
 	height:100%;
   }
-
-.service {
+.extra_layer{
+	background-color:  rgba(255, 255, 255, 0.6);
 	padding: 10px;
-	.service-workshops {
-		background-image: url('../img/640x380/talk.jpg');
+	width:100%;
+	height:100%;
+  }
+.service {
+	padding: 15px;
+	background-repeat: no-repeat;
+	background: $color-white;
+	&.service-workshops {
+		background-image: url('../img/640x380/workshop.jpg');
 	}
-	.service-hackathons {
-		background-image: url('../img/640x380/students_for_ai.jpg');
-	}
-	.service-projects {
-		background-image: url('../img/640x380/test.jpg');
-	}
-	.service-industry {
+	&.service-hackathons {
 		background-image: url('../img/640x380/ai_hack.jpg');
+	}
+	&.service-projects {
+		background-image: url('../img/640x380/projects.jpg');
+	}
+	&.service-industry {
+		background-image: url('../img/640x380/talk.jpg');
 	}
 	.service-element
 	.service-info {
