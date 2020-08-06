@@ -12,33 +12,9 @@
 }
 .fa-with-padding{
     /* Add a hover effect if you want */
-
+    background: #515769;
+    color: white;
     &:hover {
         opacity: 0.7;
         }
-    
-    /* Set a specific color for each brand */
-    
-    /* Facebook */
-    &.fa-facebook {
-    background: #515769;
-    color: white;
-    }
-    
-    /* Facebook */
-    &.fa-linkedin {
-    background: #515769;
-    color: white;
-    }
-    
-    /* Twitter */
-    &.fa-envelope {
-    background: #515769;
-    color: white;
-    }
-    /* Twitter */
-    &.fa-github {
-    background: #515769;
-    color: white;
-    }
 }
