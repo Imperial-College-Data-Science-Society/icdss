@@ -10,7 +10,7 @@
         <meta content="ICDSS" name="author"/>
 
         <!-- GLOBAL MANDATORY STYLES -->
-        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
         <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 
@@ -23,6 +23,13 @@
 
         <!-- Favicon -->
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Charts -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+		<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.5.0"></script>
     </head>
     <!-- END HEAD -->
 
@@ -87,8 +94,10 @@
                     <div class="container">
                         <div class="carousel-centered">
                             <div class="margin-b-40">
-                                <h1 class="carousel-title">Imperial College Data Science Society</h1>
-                                <p>Harnessing the skills and creativity of data scientists at Imperial College London</p>
+                                <div class="extra_layer_black">
+                                    <h1 class="carousel-title">Imperial College <br>Data Science Society</h1>
+                                    <p style="color: white;">Harnessing the skills and creativity of data scientists at Imperial College London</p>
+                                </div>
                             </div>
                             <a href="#explore" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Explore</a>
                         </div>
@@ -99,8 +108,10 @@
                     <div class="container">
                         <div class="carousel-centered">
                             <div class="margin-b-40">
-                                <h1 class="carousel-title">Imperial College Data Science Society</h1>
-                                <p>Harnessing the skills and creativity of data scientists at Imperial College London</p>
+                                <div class="extra_layer_black">
+                                    <h1 class="carousel-title">Imperial College <br>Data Science Society</h1>
+                                    <p style="color: white;">Harnessing the skills and creativity of data scientists at Imperial College London</p>
+                                </div>
                             </div>
                             <a href="#explore" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Explore</a>
                         </div>
@@ -111,8 +122,11 @@
                     <div class="container">
                         <div class="carousel-centered">
                             <div class="margin-b-40">
-                                <h1 class="carousel-title">Imperial College Data Science Society</h1>
-                                <p>Harnessing the skills and creativity of data scientists at Imperial College London</p>
+                                <div class="extra_layer_black">
+                                    <h1 class="carousel-title">Imperial College <br>Data Science Society</h1>
+                                    <p style="color: white;">Harnessing the skills and creativity of data scientists at Imperial College London</p>
+                                </div>
+                                
                             </div>
                             <a href="#explore" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Explore</a>
                         </div>
@@ -125,415 +139,591 @@
 
         
         <!--========== PAGE LAYOUT ==========-->
-        
+
         <!-- Introduction -->
-        <div class="bg-color-sky-light" data-auto-height="true">
-            <div id="explore" class="content-lg container">
-                <div class="content-lg">
-                    <h1>INTRODUCTION</h1>
+        <div class="content-lg container" id = "explore">
+            <div class="row margin-b-50">
+                <div class="col-sm-8">
+                    <h2>Introduction</h2>
                     <p>The Imperial College Data Science Society is an opportunity for students to engage with 
                         and learn about Data Science. Data science which encompasses computer science and 
                         mathematics--specifically Machine Learning (ML), Artificial Intelligence (AI), statistics, 
                         and their applications toward solving problems in various domains--has been one of the 
                         hottest topics in the second half of this decade.</p>
-                    <p>Being the departmental society of the 
-                        Imperial College Data Science Institute and with a student reach across all major 
-                        departments, the Imperial College Data Science Society (ICDSS) promotes data science 
-                        awareness amongst the student body. While most people have heard of ML and AI, many are 
-                        still unfamiliar with their applications in business and other domains through data 
-                        science.</p>
                 </div>
             </div>
-        </div>
-        <div class="content-lg container">
-            <div class="content-lg">
-                <h1>PURPOSE AND GOALS</h1>
-                <h2>Bridging the Gaps</h2>
-                <p>ICDSS’s goal is to equip students from all disciplines with key data science skills and 
-                    bridge the gap between industry and academia. The talents we develop help meet the high 
-                    demands of various industries for data scientists. We do this by providing students with 
-                    industry insights, skill development workshops, Hackathons, and projects to practice the 
-                    art of data science.</p>
-                <h2>Data for Good</h2>
-                <p>We raise the awareness on being ethical in using tehcnology and applying our skills to make 
-                    real impact to communities. We support non-for-profits by providing analytics service for 
-                    free. We are actively considering data privacy for all of our activities, which can 
-                    reassure our members and our clients.</p>
+            <!--// end row -->
+
+            <div class="row margin-b-50">
+                <div class="col-sm-7 sm-margin-b-50">
+                    <div class="wow fadeInLeft" data-wow-duration=".5" data-wow-delay=".5s">
+                        <div class="margin-b-30">
+                            <h3>Building a Community</h3>
+                            <p>With a student reach across all departments, the Imperial College Data Science Society 
+                                (ICDSS) serves to bring together Imperial's diverse and passionate data science community. 
+                                ICDSS aims to harness the skills and creativity of Imperial’s most talented students to 
+                                become the UK’s leading assemblage of data scientists and entrepreneurs.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-sm-4 col-sm-offset-1">
+                    <div class="wow fadeInLeft" data-wow-duration=".5" data-wow-delay=".5s">
+                        <img class="img-responsive" src="img/970x970/community.jpg" alt="Our Office">
+                    </div>
+                </div>
+            </div> 
+
+            <div class = "row margin-b-20">
+                <div class="col-sm-4 sm-margin-b-50">
+                    <div class="wow fadeInRight" data-wow-duration=".5" data-wow-delay=".5s">
+                        <img class="img-responsive" src="img/970x970/gap.png" alt="Our Office">
+                    </div>
+                    
+                </div>
+                <div class="col-sm-7 col-sm-offset-1">
+                    <div class="wow fadeInRight" data-wow-duration=".5" data-wow-delay=".5s">
+                        <h3>Bridging the Gaps</h3>
+                        <p>Being the departmental society of the 
+                            Imperial College Data Science Institute and with a student reach across all major 
+                            departments, ICDSS’s goal is to equip students from all disciplines with key data science skills and 
+                            bridge the gap between industry and academia. The talents we develop help meet the high 
+                            demands of various industries for data scientists. We do this by providing students with 
+                            industry insights, skill development workshops, Hackathons, and projects to practice the 
+                            art of data science.</p>
+                    </div>
+                    
+                </div>
             </div>
+            <!--// end row -->
         </div>
+        
         
         <!-- What we offer -->
         <div class="bg-color-sky-light" data-auto-height="true">
             <div class="content-lg container">
-                <h1>WHAT WE OFFER</h1>
-                <div class="row row-space-1 margin-b-2">
-                    <div class="col-sm-3 sm-margin-b-2">
+                <h2>What We Offer</h2>
+                <div class="row row-space-1 margin-b-20">
+                    <div class="col-sm-6 sm-margin-b-2">
                         
                         <div class="wow fadeInLeft" data-wow-duration=".5" data-wow-delay=".5s">
-                            
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-chemistry"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Workshops</h3>
-                                    <p class="margin-b-5">We aim to expand our workshop series by inviting our </br> sponsors and relevant companies to teach essential Data Science skills.</p>
-                                </div>
+                            <div class="service service-workshops" data-height="height">
+                                <div class="extra_layer">
+                                    <div class="service-element">
+                                        <i class="service-icon icon-chemistry"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h3>Workshops</h3>
+                                        <p class="margin-b-5" style="color:rgb(80, 80, 80)">Our workshop series cover various topics including data analysis, 
+                                            data visualisation, machine learning, and programming both in R and Python, 
+                                            the latter being a member favourite. Over the course of the last two years, 
+                                            we achieved a cumulative attendance of over 600 students.</p>
+                                    </div>
+                                    <a href="workshops.html" class="content-wrapper-link"></a>    
                                 <a href="workshops.html" class="content-wrapper-link"></a>    
+                                    <a href="workshops.html" class="content-wrapper-link"></a>    
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3 sm-margin-b-2">
+                    <div class="col-sm-6 sm-margin-b-2">
                         <div class="wow fadeInLeft" data-wow-duration=".5" data-wow-delay=".5s">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-screen-tablet"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Hackathons</h3>
-                                    <p class="margin-b-5">We host AI Hack annually, the largest student-led AI Hackathon in the UK.</p>
-                                </div>
+                            <div class="service service-hackathons" data-height="height">
+                                <div class="extra_layer">
+                                    <div class="service-element">
+                                        <i class="service-icon icon-screen-tablet"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h3>Hackathons</h3>
+                                        <p class="margin-b-5" style="color:rgb(80, 80, 80)">We host AI Hack annually, the largest student-led AI Hackathon in the UK.
+                                            In 2018, the first Imperial College Data Challenge Hackathon took off. 80 participants were 
+                                            chosen from over 300 applicants to take part in solving 7 challenges provided by companies 
+                                            such as GSK, TfL, and Deliveroo. In 2019, we scaled the event to 300 participants including 
+                                            students from other top universities in the UK.</p>
+                                    </div>
+                                    <a href="aihack.html" class="content-wrapper-link"></a>    
                                 <a href="aihack.html" class="content-wrapper-link"></a>    
+                                    <a href="aihack.html" class="content-wrapper-link"></a>    
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                </div>
+                <div class="row row-space-1 margin-b-20">
+                    <div class="col-sm-6">
                         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-badge"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Advanced Analytics Consulting Projects</h3>
-                                    <p class="margin-b-5">Providing hands-on data science experience for students to tackle real-world problems in industrial settings.</p>
-                                </div>
+                            <div class="service service-projects" data-height="height">
+                                <div class="extra_layer">
+                                    <div class="service-element">
+                                        <i class="service-icon icon-badge"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h3>Advanced Analytics Consulting Projects</h3>
+                                        <p class="margin-b-5" style="color:rgb(80, 80, 80)">Providing hands-on data science experience for students to 
+                                            tackle real-world problems in industrial settings. This will provide students 
+                                            with the chance to build portfolios of high impact projects to accelerate 
+                                            their development and increase their employability.</p>
+                                    </div>
+                                    <a href="#" class="content-wrapper-link"></a>    
                                 <a href="#" class="content-wrapper-link"></a>    
+                                    <a href="#" class="content-wrapper-link"></a>    
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3 sm-margin-b-2">
+                    <div class="col-sm-6 sm-margin-b-2">
                         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".4s">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-notebook"></i>
+                            <div class="service service-industry" data-height="height">
+                                <div class="extra_layer">
+                                    <div class="service-element">
+                                        <i class="service-icon icon-notebook"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h3>Industrial Networking</h3>
+                                        <p class="margin-b-5" style="color:rgb(80, 80, 80)">Regular talks by data scientists from industry provide our members 
+                                            with insights into the real-world applications of data science. Previous speakers 
+                                            included data scientists from J.P. Morgan, LinkedIn, Uber, and BCG Gamma.</p>
+                                    </div>
+                                    <a href="events.html" class="content-wrapper-link"></a>
                                 </div>
-                                <div class="service-info">
-                                    <h3>Industrial Networking</h3>
-                                    <p class="margin-b-5">Regular talks by Data Scientists from industry provide our members with insights into the real-world applications of Data Science.</p>
-                                </div>
-                                <a href="events.html" class="content-wrapper-link"></a>    
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--// end row -->
             </div>
+           
         </div>
         <!-- End activity -->
-
-        <!-- Latest Products -->
         <div class="content-lg container">
-            <div class="row margin-b-40">
-                <div class="col-sm-6">
-                    <h2>Latest Products</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
+            <section id="statistics" class="main special">
+                <header class="major">
+                    <h2>Society Statistics</h2>
+                </header>
+                <h3> ICDSS is the largest data science student society in the UK. </h3>
+                <div class="row row-space-1 margin-b-50">
+                    <ul class="statistics">
+                        <li class="style1">
+                            <span class="fa fa-users"></span>
+                            <strong>855</strong> Current Members
+                        </li>
+                        <li class="style2">
+                            <span class="fa fa-envelope"></span>
+                            <strong>2,921</strong> Email Subscribers
+                        </li>
+                        <li class="style3">
+                            <span class="fa fa-laptop"></span>
+                            <strong>355</strong> AI Hack Contestants
+                        </li>
+                        <li class="style4">
+                            <span class="fa fa-code-fork"></span>
+                            <strong>173</strong> Jupyter Notebooks Submitted
+                        </li>
+                        <li class="style5">
+                            <span class="fa fa-child"></span>
+                            <strong>70.56%</strong> Member Participation
+                        </li>
+                    </ul>
                 </div>
+                
+                <div class="row row-space-1 margin-b-50">
+                    <div class="center">
+                        <h3>Departmental Breakdown</h3>
+                        <canvas id="departmentbreakdown"></canvas>
+                    </div>
+                </div>
+                <div class="row row-space-1 margin-b-50">
+                    <div class="center">
+                        <h3>Level of Study Breakdown</h3>
+                        <canvas id="levelofstudybrekdown"></canvas>
+                    </div>
+                </div>
+                        
+                
+                <script>
+                    Chart.plugins.unregister(ChartDataLabels);
+                    var ctx = document.getElementById('departmentbreakdown').getContext('2d');
+                    var color = Chart.helpers.color;
+                    var horizontalBarChartData = {
+                        labels: ['Computing', 'Business School', 'Mathematics', 'Electrical Engineering', 'Physics', 'Other Engineering', 'Other Sciences'],
+                        datasets: [{
+                            label: 'Departmental Breakdown',
+                            borderWidth: 1,
+                            data: [
+                                18.14,
+                                14.67,
+                                13.56,
+                                11.67,
+                                10.41,
+                                22.08,
+                                9.46
+                            ],
+                            backgroundColor: [
+                                'rgb(255, 99, 132)',
+                                'rgb(255, 159, 64)',
+                                'rgb(255, 205, 86)',
+                                'rgb(75, 192, 192)',
+                                'rgb(54, 162, 235)',
+                                'rgb(153, 102, 255)',
+                                'rgb(201, 203, 207)'
+                            ]
+                        }]
+                    };
+                    var myBarChart = new Chart(ctx, {
+                        type: 'horizontalBar',
+                        data: horizontalBarChartData,
+                        options: {
+                                 legend: {
+                                         display: false,
+                                    },
+                                    scales: {
+                            xAxes: [{
+                                            scaleLabel: {
+                                                display: true,
+                                                labelString: 'Percent Representation'
+                                            }
+                            }]
+                            }
+                            }
+                    });
+                </script>
+                <script>
+                    var ctx = document.getElementById('levelofstudybrekdown').getContext('2d');
+                    var data = {
+                        labels: ['Undergraduate', 'Postgraduate', 'Research Postgraduate'],
+                        datasets: [{
+                            label: 'Departmental Breakdown',
+                            borderWidth: 1,
+                            data: [
+                                57.50,
+                                12.20,
+                                28.89
+                            ],
+                            backgroundColor: [
+                                'rgb(137,209,254)',
+                                'rgb(87, 160, 211)',
+                                'rgb(70, 130, 180)',
+                            ]
+                        }]
+                    };
+                    var myDoughnutChart = new Chart(ctx, {
+                        plugins: [ChartDataLabels],
+                         type: 'doughnut',
+                         data: data,
+                         options: {
+                                plugins:{
+                                    labels: {
+                                        render: 'percentage',
+                                        fontColor: ['green', 'white', 'red'],
+                                        precision: 2,
+                                        arc: true,
+                                    }
+                                }
+                         }
+                    });
+                </script>
+            </section>
+            <div class="center">
+
+                <a href="https://www.imperialcollegeunion.org/activities/a-to-z/data-science" class="btn-theme btn-theme-bg btn-default-bg text-uppercase">Join the Society Today!</a>
             </div>
-            <!--// end row -->
 
-            <div class="row">
-                <!-- Latest Products -->
-                <div class="col-sm-4 sm-margin-b-50">
-                    <div class="margin-b-20">
-                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                            <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
-                        </div>
-                    </div>
-                    <h4><a href="#">Triangle Roof</a> <span class="text-uppercase margin-l-20">Management</span></h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                    <a class="link" href="#">Read More</a>
-                </div>
-                <!-- End Latest Products -->
-
-                <!-- Latest Products -->
-                <div class="col-sm-4 sm-margin-b-50">
-                    <div class="margin-b-20">
-                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                            <img class="img-responsive" src="img/970x647/02.jpg" alt="Latest Products Image">
-                        </div>
-                    </div>
-                    <h4><a href="#">Curved Corners</a> <span class="text-uppercase margin-l-20">Developmeny</span></h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                    <a class="link" href="#">Read More</a>
-                </div>
-                <!-- End Latest Products -->
-
-                <!-- Latest Products -->
-                <div class="col-sm-4 sm-margin-b-50">
-                    <div class="margin-b-20">
-                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                            <img class="img-responsive" src="img/970x647/03.jpg" alt="Latest Products Image">
-                        </div>
-                    </div>
-                    <h4><a href="#">Bird On Green</a> <span class="text-uppercase margin-l-20">Design</span></h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                    <a class="link" href="#">Read More</a>
-                </div>
-                <!-- End Latest Products -->
-            </div>
-            <!--// end row -->
         </div>
-        <!-- End Latest Products -->
-
-        <!-- Clients -->
-        <div class="bg-color-sky-light">
-            <div class="content-lg container">
-                <!-- Swiper Clients -->
-                <div class="swiper-slider swiper-clients">
-                    <!-- Swiper Wrapper -->
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/01.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/02.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/03.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/04.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/05.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients Logo">
-                        </div>
-                    </div>
-                    <!-- End Swiper Wrapper -->
-                </div>
-                <!-- End Swiper Clients -->
-            </div>
-        </div>
-        <!-- End Clients -->
-
-        <!-- Testimonials -->
-        <div class="content-lg container">
-            <div class="row">
-                <div class="col-sm-9">
-                    <h2>Customer Reviews</h2>
-
-                    <!-- Swiper Testimonials -->
-                    <div class="swiper-slider swiper-testimonials">
-                        <!-- Swiper Wrapper -->
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <blockquote class="blockquote">
-                                    <div class="margin-b-20">
-                                        Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua. Ut enim minim veniam exercitation laboris ut siad consequat siad minim enum esqudiat dolore.
-                                    </div>
-                                    <div class="margin-b-20">
-                                        Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret tempor incididunt dolore magna consequat siad minim aliqua.
-                                    </div>
-                                    <p><span class="fweight-700 color-link">Joh Milner</span>, Metronic Customer</p>
-                                </blockquote>
-                            </div>
-                            <div class="swiper-slide">
-                                <blockquote class="blockquote">
-                                    <div class="margin-b-20">
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                    <div class="margin-b-20">
-                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                    </div>
-                                    <p><span class="fweight-700 color-link">Alex Clarson</span>, Metronic Customer</p>
-                                </blockquote>
-                            </div>
-                        </div>
-                        <!-- End Swiper Wrapper -->
-
-                        <!-- Pagination -->
-                        <div class="swiper-testimonials-pagination"></div>
-                    </div>
-                    <!-- End Swiper Testimonials -->
-                </div>
-            </div>
-            <!--// end row -->
-        </div>
-        <!-- End Testimonials -->
-
-        <!-- Pricing -->
-        <div class="bg-color-sky-light">
-            <div class="content-lg container">
-                <div class="row row-space-1">
-                    <div class="col-sm-4 sm-margin-b-2">
-                        <!-- Pricing -->
-                        <div class="pricing">
-                            <div class="margin-b-30">
-                                <i class="pricing-icon icon-chemistry"></i>
-                                <h3>Starter Kit <span> - $</span> 49</h3>
-                                <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                            </div>
-                            <ul class="list-unstyled pricing-list margin-b-50">
-                                <li class="pricing-list-item">Basic Features</li>
-                                <li class="pricing-list-item">Up to 5 products</li>
-                                <li class="pricing-list-item">50 Users Panels</li>
-                            </ul>
-                            <a href="pricing.html" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Choose</a>
-                        </div>
-                        <!-- End Pricing -->
-                    </div>
-                    <div class="col-sm-4 sm-margin-b-2">
-                        <!-- Pricing -->
-                        <div class="pricing pricing-active">
-                            <div class="margin-b-30">
-                                <i class="pricing-icon icon-badge"></i>
-                                <h3>Professional <span> - $</span> 149</h3>
-                                <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                            </div>
-                            <ul class="list-unstyled pricing-list margin-b-50">
-                                <li class="pricing-list-item">Basic Features</li>
-                                <li class="pricing-list-item">Up to 100 products</li>
-                                <li class="pricing-list-item">100 Users Panels</li>
-                            </ul>
-                            <a href="pricing.html" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Choose</a>
-                        </div>
-                        <!-- End Pricing -->
-                    </div>
-                    <div class="col-sm-4">
-                        <!-- Pricing -->
-                        <div class="pricing">
-                            <div class="margin-b-30">
-                                <i class="pricing-icon icon-shield"></i>
-                                <h3>Advanced <span> - $</span> 249</h3>
-                                <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                            </div>
-                            <ul class="list-unstyled pricing-list margin-b-50">
-                                <li class="pricing-list-item">Extended Features</li>
-                                <li class="pricing-list-item">Unlimited products</li>
-                                <li class="pricing-list-item">Unlimited Users Panels</li>
-                            </ul>
-                            <a href="pricing.html" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Choose</a>
-                        </div>
-                        <!-- End Pricing -->
-                    </div>
-                </div>
-                <!--// end row -->
-            </div>
-        </div>
-        <!-- End Pricing -->
-
-        <!-- Promo Section -->
-        <div class="promo-section overflow-h">
-            <div class="container">
-                <div class="clearfix">
-                    <div class="ver-center">
-                        <div class="ver-center-aligned">
-                            <div class="promo-section-col">
-                                <h2>Our Clients</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
-                                <p>Ipsum dolor sit amet consectetur adipiscing elit sed tempor incididut ut sead laboret dolore magna aliqua enim minim veniam exercitation ipsum dolor sit amet consectetur adipiscing</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="promo-section-img-right">
-                <img class="img-responsive" src="img/970x970/01.jpg" alt="Content Image">
-            </div>
-        </div>
-        <!-- End Promo Section -->
-
-        <!-- Work -->
-        <div class="bg-color-sky-light overflow-h">
+        
+        <!-- Team -->
+        <div class="bg-color-sky-light" data-auto-height="true">
             <div class="content-lg container">
                 <div class="row margin-b-40">
                     <div class="col-sm-6">
-                        <h2>Showcase</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
+                        <h2>Meet the Team</h2>
                     </div>
                 </div>
                 <!--// end row -->
-
-                <!-- Masonry Grid -->
-                <div class="masonry-grid">
-                    <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
-                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8">
-                        <!-- Work -->
-                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">
-                            <div class="work-overlay">
-                                <img class="full-width img-responsive" src="img/800x400/01.jpg" alt="Portfolio Image">
+    
+                <div class="row margin-b-40">
+                    <!-- Team -->
+                    <div class="col-sm-3 sm-margin-b-50">
+                        <div class="bg-color-sky-light margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img\team\satya.jpg" alt="Team Image" width="200">
                             </div>
-                            <div class="work-content">
-                                <h3 class="color-white margin-b-5">Art Of Coding</h3>
-                                <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>
-                            </div>
-                            <a class="content-wrapper-link" href="#"></a>
+                            
                         </div>
-                        <!-- End Work -->
+                        <h4><a href="#">Satya Johnson</a></h4>
+                        <p>Vice President</p>
+                        <a href="mailto:satya.johnson17@imperial.ac.uk" class="fa fa-with-padding fa-envelope"></a>
+                        <a href="https://www.linkedin.com/in/satyapjohnson/" class="fa fa-with-padding fa-linkedin"></a>
+                        <a href="https://github.com/satyapjohnson" class="fa fa-with-padding fa-github"></a>
                     </div>
-                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-4">
-                        <!-- Work -->
-                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".2s">
-                            <div class="work-overlay">
-                                <img class="full-width img-responsive" src="img/397x400/01.jpg" alt="Portfolio Image">
+                    <!-- End Team -->
+                    <!-- Team -->
+                    <div class="col-sm-3 sm-margin-b-50">
+                        <div class="bg-color-sky-light margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img\team\jennifer.jpg" alt="Team Image" width="200">
                             </div>
-                            <div class="work-content">
-                                <h3 class="color-white margin-b-5">Clean Design</h3>
-                                <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>
-                            </div>
-                            <a class="content-wrapper-link" href="#"></a>
                         </div>
-                        <!-- End Work -->
+                        <h4><a href="#">Jenniffer Mosquera</a></h4>
+                        <p>Vice President</p>
+                        <a href="mailto:j.solorzano-mosquera17@imperial.ac.uk" class="fa fa-with-padding fa-envelope"></a>
+                        <a href="https://www.linkedin.com/in/jenniffersolorzanomosquera/" class="fa fa-with-padding fa-linkedin"></a>
                     </div>
-                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-4">
-                        <!-- Work -->
-                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".3s">
-                            <div class="work-overlay">
-                                <img class="full-width img-responsive" src="img/397x300/01.jpg" alt="Portfolio Image">
+                    <!-- End Team -->
+                    <!-- Team -->
+                    <div class="col-sm-3 sm-margin-b-50">
+                        <div class="bg-color-sky-light margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img\team\hermine.jpg" alt="Team Image" width="200">
                             </div>
-                            <div class="work-content">
-                                <h3 class="color-white margin-b-5">Clean Design</h3>
-                                <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>
-                            </div>
-                            <a class="content-wrapper-link" href="#"></a>
                         </div>
-                        <!-- End Work -->
+                        <h4><a href="#">Hermine Tranie</a></h4>
+                        <p>Vice President</p>
+                        <a href="mailto:hermine.tranie17@imperial.ac.uk" class="fa fa-with-padding fa-envelope"></a>
+                        <a href="https://www.linkedin.com/in/hermine-t-326ab1ab/" class="fa fa-with-padding fa-linkedin"></a>
+                        <a href="https://github.com/hermitra" class="fa fa-with-padding fa-github"></a>
                     </div>
-                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-4">
-                        <!-- Work -->
-                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".4s">
-                            <div class="work-overlay">
-                                <img class="full-width img-responsive" src="img/397x300/02.jpg" alt="Portfolio Image">
+                    <!-- End Team -->
+                    <!-- Team -->
+                    <div class="col-sm-3 sm-margin-b-50">
+                        <div class="bg-color-sky-light margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img\team\cyril.jpg" alt="Team Image" width="200">
                             </div>
-                            <div class="work-content">
-                                <h3 class="color-white margin-b-5">Clean Design</h3>
-                                <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>
-                            </div>
-                            <a class="content-wrapper-link" href="#"></a>
                         </div>
-                        <!-- End Work -->
+                        <h4><a href="#">Cyril Gliner</a></h4>
+                        <p>Head of Finance</p>
+                        <a href="mailto:cyril.gliner17@imperial.ac.uk" class="fa fa-with-padding fa-envelope"></a>
+                        <a href="https://www.linkedin.com/in/cyril-gliner/" class="fa fa-with-padding fa-linkedin"></a>
                     </div>
-                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-4">
-                        <!-- Work -->
-                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".5s">
-                            <div class="work-overlay">
-                                <img class="full-width img-responsive" src="img/397x300/03.jpg" alt="Portfolio Image">
-                            </div>
-                            <div class="work-content">
-                                <h3 class="color-white margin-b-5">Clean Design</h3>
-                                <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>
-                            </div>
-                            <a class="content-wrapper-link" href="#"></a>
-                        </div>
-                        <!-- End Work -->
-                    </div>
+                    <!-- End Team -->
+                    
                 </div>
-                <!-- End Masonry Grid -->
+                <!--// end row -->
+                <div class="row margin-b-40">
+                    <!-- Team -->
+                    <div class="col-sm-3 sm-margin-b-50">
+                        <div class="bg-color-sky-light margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img\team\sofia.jpg" alt="Team Image" width="200">
+                            </div>
+                        </div>
+                        <h4><a href="#">Sofia Gonzalez Garcia</a></h4>
+                        <p>Head of Marketing</p>
+                        <a href="mailto:sg6818@ic.ac.uk" class="fa fa-with-padding fa-envelope"></a>
+                        <a href="https://www.linkedin.com/in/sofiagonga/" class="fa fa-with-padding fa-linkedin"></a>
+                        <a href="https://github.com/sofiagonga" class="fa fa-with-padding fa-github"></a>
+                    </div>
+                    <!-- End Team -->
+                    <!-- Team -->
+                    <div class="col-sm-3 sm-margin-b-50">
+                        <div class="bg-color-sky-light margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img\team\stacey.jpg" alt="Team Image" width="200">
+                            </div>
+                        </div>
+                        <h4><a href="#">Stacey Wu</a></h4>
+                        <p>Head of Outreach</p>
+                        <a href="mailto:zheng.wu18@imperial.ac.uk" class="fa fa-with-padding fa-envelope"></a>
+                        <a href="https://www.linkedin.com/in/stacey-wu/" class="fa fa-with-padding fa-linkedin"></a>
+                    </div>
+                    <!-- End Team -->
+                    <!-- Team -->
+                    <div class="col-sm-3 sm-margin-b-50">
+                        <div class="bg-color-sky-light margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img\team\lionel.jpg" alt="Team Image" width="200">
+                            </div>
+                        </div>
+                        <h4><a href="#">Lionel Tan</a></h4>
+                        <p>Head of Operations</p>
+                        <a href="mailto:syt119@ic.ac.uk" class="fa fa-with-padding fa-envelope"></a>
+                        <a href="https://www.linkedin.com/in/si-yu-lionel-tan-28a414105/" class="fa fa-with-padding fa-linkedin"></a>
+                        <a href="https://github.com/sytan98" class="fa fa-with-padding fa-github"></a>
+                    </div>
+                    <!-- End Team -->
+                    <!-- Team -->
+                    <div class="col-sm-3 sm-margin-b-50">
+                        <div class="bg-color-sky-light margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img\team\harrison.jpg" alt="Team Image" width="200">
+                            </div>
+                        </div>
+                        <h4><a href="#">Harrison Zhu</a></h4>
+                        <p>Head of Talent Development</p>
+                        <a href="mailto:hbz15@ic.ac.uk" class="fa fa-with-padding fa-envelope"></a>
+                        <a href="https://www.linkedin.com/in/hzhu508/" class="fa fa-with-padding fa-linkedin"></a>
+                        <a href="https://github.com/harrisonzhu508" class="fa fa-with-padding fa-github"></a>
+                    </div>
+                    <!-- End Team -->
+                </div>
+                <!--// end row -->
+    
+                <div class="row margin-b-40">
+                    
+                    <!-- Team -->
+                    <div class="col-sm-3 sm-margin-b-50">
+                        <div class="bg-color-sky-light margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img\team\william.jpg" alt="Team Image" width="200">
+                            </div>
+                        </div>
+                        <h4><a href="#">William Profit</a></h4>
+                        <p>Head of Talent Development</p>
+                        <a href="mailto:william.profit18@imperial.ac.uk" class="fa fa-with-padding fa-envelope"></a>
+                        <a href="https://www.linkedin.com/in/williamprofit/" class="fa fa-with-padding fa-linkedin"></a>
+                        <a href="https://github.com/williamprofit" class="fa fa-with-padding fa-github"></a>
+                    </div>
+                    <!-- End Team -->
+                    <!-- Team -->
+                    <div class="col-sm-3 sm-margin-b-50">
+                        <div class="bg-color-sky-light margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img\team\xing.jpg" alt="Team Image" width="200">
+                            </div>
+                        </div>
+                        <h4><a href="#">Xing Liu</a></h4>
+                        <p>Head of Talent Development</p>
+                        <a href="mailto:liuxing971015@outlook.com" class="fa fa-with-padding fa-envelope"></a>
+                        <a href="https://www.linkedin.com/in/xingliu97/" class="fa fa-with-padding fa-linkedin"></a>
+                        <a href="https://github.com/xinglliu" class="fa fa-with-padding fa-github"></a>
+                    </div>
+                    <!-- End Team -->
+                    <!-- Team -->
+                    <div class="col-sm-3 sm-margin-b-50">
+                        <div class="bg-color-sky-light margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img\team\kacper.jpg" alt="Team Image" width="200">
+                            </div>
+                        </div>
+                        <h4><a href="#">Kacper Kazaniecki</a></h4>
+                        <p>Head of Talent Development</p>
+                        <a href="mailto:kacper.kazaniecki18@imperial.ac.uk" class="fa fa-with-padding fa-envelope"></a>
+                        <a href="https://www.linkedin.com/in/kacperkazaniecki/" class="fa fa-with-padding fa-linkedin"></a>
+                        <a href="https://github.com/KacperKazan" class="fa fa-with-padding fa-github"></a>
+                    </div>
+                    <!-- End Team -->
+                    <!-- Team -->
+                    <div class="col-sm-3 sm-margin-b-50">
+                        <div class="bg-color-sky-light margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img\team\tilman.jpg" alt="Team Image" width="200">
+                            </div>
+                        </div>
+                        <h4><a href="#">Tilman Roeder</a></h4>
+                        <p>Web Developer</p>
+                        <a href="mailto:tilman.roeder17@imperial.ac.uk" class="fa fa-with-padding fa-envelope"></a>
+                        <a href="https://www.linkedin.com/in/tilman-roeder/" class="fa fa-with-padding fa-linkedin"></a>
+                        <a href="https://github.com/dyedgreen" class="fa fa-with-padding fa-github"></a>
+                    </div>
+                    <!-- End Team -->
+                </div>
+                <!--// end row -->
+    
+                <div class="row margin-b-40">
+                    <!-- Team -->
+                    <div class="col-sm-3 sm-margin-b-50">
+                        <div class="bg-color-sky-light margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img\team\kenton.jpg" alt="Team Image" width="200">
+                            </div>
+                        </div>
+                        <h4><a href="#">Kenton Kwok</a></h4>
+                        <p>Event Manager</p>
+                        <a href="mailto:ktk219@ic.ac.uk" class="fa fa-with-padding fa-envelope"></a>
+                        <a href="https://www.linkedin.com/in/kentonkwok/" class="fa fa-with-padding fa-linkedin"></a>
+                        <a href="https://github.com/kwokkenton" class="fa fa-with-padding fa-github"></a>
+                    </div>
+                    <!-- End Team -->
+                    <!-- Team -->
+                    <div class="col-sm-3 sm-margin-b-50">
+                        <div class="bg-color-sky-light margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img\team\avatar.jpg" alt="Team Image" width="200">
+                            </div>
+                        </div>
+                        <h4><a href="#">Chris Huang</a></h4>
+                        <p>Head of Corporate Relations</p>
+                        <a href="mailto:si.huang15@imperial.ac.uk" class="fa fa-with-padding fa-envelope"></a>
+                        <a href="https://www.linkedin.com/in/bobweasel/" class="fa fa-with-padding fa-linkedin"></a>
+                        <a href="https://github.com/inyrface" class="fa fa-with-padding fa-github"></a>
+                    </div>
+                    <!-- End Team -->
+                    <!-- Team -->
+                    <div class="col-sm-3 sm-margin-b-50">
+                        <div class="bg-color-sky-light margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img\team\terry.jpg" alt="Team Image" width="200">
+                            </div>
+                        </div>
+                        <h4><a href="#">Terry Peng</a></h4>
+                        <p>Head of Corporate Relations</p>
+                        <a href="mailto:tianyi.peng17@imperial.ac.uk" class="fa fa-with-padding fa-envelope"></a>
+                        <a href="https://www.linkedin.com/in/terry-peng-415752171/" class="fa fa-with-padding fa-linkedin"></a>
+                        <a href="https://github.com/terripeng" class="fa fa-with-padding fa-github"></a>
+                    </div>
+                    <!-- End Team -->
+                    <!-- Team -->
+                    <div class="col-sm-3 sm-margin-b-50">
+                        <div class="bg-color-sky-light margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img\team\jenn.jpg" alt="Team Image" width="200">
+                            </div>
+                        </div>
+                        <h4><a href="#">Jenn Tan</a></h4>
+                        <p>Head of Corporate Relations</p>
+                        <a href="mailto:jia.y.tan18@imperial.ac.uk" class="fa fa-with-padding fa-envelope"></a>
+                        <a href="https://www.linkedin.com/in/jenn-tan-21775818b/" class="fa fa-with-padding fa-linkedin"></a>
+                    </div>
+                    <!-- End Team -->
+                </div>
+                <!--// end row -->
             </div>
         </div>
-        <!-- End Work -->
+        
+        <!-- End Team -->
+        
+        <!-- Clients -->
+        <div class="content-lg container">
+            <div class="row margin-b-40">
+                <div class="col-sm-6">
+                    <h2>Current and Past Sponsors</h2>
+                </div>
+            </div>
+            
+            <!-- Swiper Clients -->
+            <div class="swiper-slider swiper-clients">
+                <!-- Swiper Wrapper -->
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="swiper-clients-img" src="img/clients/nhs.png" alt="Clients Logo">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-clients-img" src="img/clients/shell.png" alt="Clients Logo">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-clients-img" src="img/clients/expedia.png" alt="Clients Logo">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-clients-img" src="img/clients/business_school.png" alt="Clients Logo">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-clients-img" src="img/clients/jpmorgan.png" alt="Clients Logo">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-clients-img" src="img/clients/facebook.png" alt="Clients Logo">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-clients-img" src="img/clients/udacity.png" alt="Clients Logo">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-clients-img" src="img/clients/datascienceinstitute.png" alt="Clients Logo">
+                    </div>
+                </div>
+                <!-- End Swiper Wrapper -->
+            </div>
+            <!-- End Swiper Clients -->
+        </div>
+        <!-- End Clients -->
         <!--========== END PAGE LAYOUT ==========-->
 
         <!--========== FOOTER ==========-->
@@ -542,37 +732,35 @@
             <div class="footer-seperator">
                 <div class="content-lg container">
                     <div class="row">
-                        <div class="col-sm-2 sm-margin-b-50">
+                        <div class="col-sm-4 sm-margin-b-50">
                             <!-- List -->
+                            <h2 class = "footer-list-link" >Overview</h2>
                             <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Home</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">About</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Products</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Pricing</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Clients</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Careers</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Contact</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Terms</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="index.html">Home</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="events.html">Events</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="workshops.html">Workshops</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="aihack.html">AI Hack</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="joinus.html">Join Us</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="workwithus.html">Work With Us</a></li>
                             </ul>
                             <!-- End List -->
                         </div>
                         <div class="col-sm-4 sm-margin-b-30">
                             <!-- List -->
-                            <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Twitter</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Facebook</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Instagram</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">YouTube</a></li>
-                            </ul>
+                            <h2 class = "footer-list-link">Contact Us</h2>
+                            <p class="footer-list-item">
+                                Email: icdss@imperial.ac.uk
+                            </p>
                             <!-- End List -->
+                            <a href="https://www.facebook.com/icdatasoc/" class="fa fa-facebook"></a>
+                            <a href="https://www.linkedin.com/company/imperial-college-data-science-society/" class="fa fa-linkedin"></a>
+                            <a href="https://github.com/Imperial-College-Data-Science-Society" class="fa fa-github"></a>
                         </div>
-                        <div class="col-sm-5 sm-margin-b-30">
-                            <h2 class="color-white">Send Us A Note</h2>
-                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Name" required>
-                            <input type="email" class="form-control footer-input margin-b-20" placeholder="Email" required>
-                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Phone" required>
-                            <textarea class="form-control footer-input margin-b-30" rows="6" placeholder="Message" required></textarea>
-                            <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Submit</button>
+                        <div class="col-sm-4 sm-margin-b-30">
+                            <!-- List -->
+                            <h2 class = "footer-list-link">Location</h2>
+                            <p class="footer-list-item">Imperial College London,<br>South Kensington Campus,<br>Exhibition Road,<br>SW7 2AZ</p>
+                            <!-- End List -->
                         </div>
                     </div>
                     <!--// end row -->
@@ -584,7 +772,7 @@
             <div class="content container">
                 <div class="row">
                     <div class="col-xs-6">
-                        <img class="footer-logo" src="img/logos/LOGO dark.png" alt="ICDSS Logo">
+                        <img class="footer-logo" src="img/logos/LOGO white.png" alt="ICDSS Logo">
                     </div>
                 </div>
                 <!--// end row -->
@@ -616,7 +804,6 @@
         <script src="js/components/wow.min.js" type="text/javascript"></script>
         <script src="js/components/swiper.min.js" type="text/javascript"></script>
         <script src="js/components/masonry.min.js" type="text/javascript"></script>
-
     </body>
     <!-- END BODY -->
 </html>

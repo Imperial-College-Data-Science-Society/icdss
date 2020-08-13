@@ -16,7 +16,7 @@ body {
 }
 
 p {
-    @include font($size: 15px, $weight: 400, $family: $font-family-base);
+    @include font($size: 18px, $weight: 400, $family: $font-family-base);
     color: $color-subtitle;
     line-height: 1.4;
     margin-bottom: 15px;
@@ -118,4 +118,8 @@ h4 { @include font($size: 22px); }
     display: block;
     z-index: 3;
     text-decoration: none;
+}
+
+.center {
+    text-align:center;
 }

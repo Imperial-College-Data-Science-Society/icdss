@@ -1,0 +1,20 @@
+/*------------------------------------------------------------------
+  	[Social Media Icon]
+------------------------------------------------------------------*/
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.fa-with-padding{
+    /* Add a hover effect if you want */
+    background: #515769;
+    color: white;
+    &:hover {
+        opacity: 0.7;
+        }
+}

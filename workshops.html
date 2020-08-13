@@ -21,7 +21,7 @@
         <meta content="ICDSS" name="author"/>
 
         <!-- GLOBAL MANDATORY STYLES -->
-        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
         <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 
@@ -33,6 +33,9 @@
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="favicon.ico"/>
+
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <!-- END HEAD -->
 
@@ -82,16 +85,19 @@
         <!--========== END HEADER ==========-->
 
         <!--========== PARALLAX ==========-->
-        <div class="parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/presentation.png">
+        <div class="parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/Advanced2.JPG">
             <div class="parallax-content container">
-                <h1 class="carousel-title">Workshops</h1>
-                <p>To equip students from all disciplines with key data science skills and bridge the gap between industry and academia.</p>
+                <div class="extra_layer_black">
+                    <h1 class="carousel-title">Workshops</h1>
+                    <p style="color: white;">To equip students from all disciplines with key data science skills and bridge the gap between industry and academia.</p>
+                </div>
+               
             </div>  
         </div>
         <!--========== PARALLAX ==========-->
 
         <!--========== PAGE LAYOUT ==========-->
-        <!-- General Questions -->
+        <!-- Intro Workshops -->
         <div class="content-lg container">
             <div class="row margin-b-20">
                 <div class="col-sm-6">
@@ -99,11 +105,11 @@
                 </div>
             </div>
             <!--// end row -->
-
-            <div class="row">
-                <div class="col-sm-7 sm-margin-b-50">
-                    <div class="margin-b-30">
-                        <h3>We run many workshop series during the academic year covering all aspects of data science.</h3>
+            <div class="row margin-b-20">
+                <div class="col-sm-7 sm-margin-b-20">
+                        <h3>Our workshop series runs throughout the academic year and covers all aspects of data science, giving you 
+                            an excellent foundation in this field.
+                        </h3>
                         <p>Over the course of the past year we hosted a variety of events. Each event attracted over 
                             40 attendees on average, and over 300 students took part in our talent development 
                             initiatives and corporate events. In the upcoming year, we seek to maintain engagement 
@@ -112,151 +118,164 @@
                         <p> Our workshop series cover various topics including data analysis, data visualisation, 
                             machine learning, and programming both in R and Python, the latter being a member 
                             favourite.</p>
-                    </div>
-                    <p>Our workshops are usually 1 hr 30 mins long and there will be helpers from the society to 
-                        assist you during the lesson. Furthermore, there will be refreshments provided at the end!</p>
+                        <p>Our workshops are usually 1 hr 30 mins long and there will be helpers from the society to 
+                            assist you during the lesson. Furthermore, there will be refreshments provided at the end!</p>
                 </div>
                 <div class="col-sm-4 col-sm-offset-1">
-                    <img class="img-responsive" src="img/640x380/01.jpg" alt="Our Office">
+                    <img class="img-responsive" src="img/640x380/workshop.jpg" alt="Workshops">
                 </div>
             </div>
             <!--// end row -->
         </div>
-        <!-- End General Questions -->
-        <!-- Service -->
+        <!-- End Intro Workshops -->
+
+        <!-- Upcoming Workshops -->
         <div class="bg-color-sky-light" data-auto-height="true">
             <div class="content-lg container">
-                <div class="row row-space-1 margin-b-2">
-                    <div class="col-sm-6 sm-margin-b-2">
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".2s">
-                            <!-- <div class="service" data-height="height">
-                                <h3>Art Of Coding</h3> -->
-                                <img class="img-responsive" src="img\workshops\workshop_01.png" alt="Workshop 1">
-                                <a href="#" class="content-wrapper-link"></a>    
-                            <!-- </div> -->
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        
+                <div class="row margin-b-50">
+                    <h2>Upcoming Workshop</h2>
+                    <p>We have refined our workshop syllabus after taking in feedback from our members to be more <b>practical-focused</b>
+                        and to design them around <b>projects</b>. We will release more details of our new and improved workshop series over the 
+                        coming months. Here's a peek on what our upcoming workshops will cover:
+                    </p>
+                    <li>Introduction to Data Science</li>
+                    <li>Classifying Character and Organ Images</li>
+                    <li>Demystifying Causality and Causal Inference</li>
+                    <li>A Primer to Data Engineering</li>
+                    <li>Natural Language Processing (NLP) by using Attention</li>
+                    <li>Art and Music using GANs</li>
+                    <li>Probabilistic Programming in Practice</li>
+                </div>
+                <div class="row margin-b-20">
+                    <div class="center">
+                        <a href="https://github.com/Imperial-College-Data-Science-Society/workshops" class="btn-theme btn-theme-bg btn-default-bg text-uppercase">Check Out Our Workshop Repo!</a>
                     </div>
                 </div>
-                <!--// end row -->
+            </div>   
+            
+        </div>
+        
+        <!-- End Past Workshops -->
 
-                <div class="row row-space-1 margin-b-2">
-                    <div class="col-sm-6 sm-margin-b-2">
+        <!-- Past Workshops -->
+        <div class="content-lg container">
+            <h2>Past Workshops</h2>
+            <div class="row row-space-1 margin-b-2">
+                <div class="col-sm-6 sm-margin-b-2">
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".2s">
+                        <!-- <div class="service" data-height="height">
+                            <h3>Art Of Coding</h3> -->
+                            <img class="img-responsive" src="img\workshops\workshop_01.jpg" alt="Workshop 1">
+                            <a href="#" class="content-wrapper-link"></a>    
+                        <!-- </div> -->
+                    </div>
+                </div>
+                <div class="col-sm-6">
                     
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="wow fadeInRight" data-wow-duration=".3" data-wow-delay=".2s">
-                            <!-- <div class="service" data-height="height">
-                                <h3>Useful Documentation</h3> -->
-                                <img class="img-responsive" src="img\workshops\workshop_02.png" alt="Workshop 2">
-                                <a href="#" class="content-wrapper-link"></a>    
-                            <!-- </div> -->
-                        </div>
-                    </div>
                 </div>
-                <!--// end row -->
-
-                <div class="row row-space-1">
-                    <div class="col-sm-6 sm-margin-b-2">
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".4s">
-                            <!-- <div class="service" data-height="height">
-                                <h3>Fast Delivery</h3> -->
-                                <img class="img-responsive" src="img\workshops\workshop_03.png" alt="Workshop 3">
-                                <a href="#" class="content-wrapper-link"></a>    
-                            <!-- </div> -->
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                    </div>
-                </div>
-                <!--// end row -->
-                <div class="row row-space-1">
-                    <div class="col-sm-6"></div>
-                    <div class="col-sm-6 sm-margin-b-2">
-                        <div class="wow fadeInRight" data-wow-duration=".3" data-wow-delay=".4s">
-                            <!-- <div class="service" data-height="height">
-                                <h3>Fast Delivery</h3> -->
-                                <img class="img-responsive" src="img\workshops\workshop_03.png" alt="Workshop 3">
-                                <a href="#" class="content-wrapper-link"></a>    
-                            <!-- </div> -->
-                        </div>
-                    </div>
-                </div>
-                <!--// end row -->
             </div>
-        </div>
-        <!-- End Service -->
+            <!--// end row -->
 
-
-
-        <!-- Pricing -->
-        <div class="bg-color-sky-light">
-            <div class="content-lg container">
-                <div class="row row-space-1">
-                    <div class="col-sm-4 sm-margin-b-2">
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
-                            <!-- Pricing -->
-                            <div class="pricing">
-                                <div class="margin-b-30">
-                                    <i class="pricing-icon icon-chemistry"></i>
-                                    <h3>Starter Kit <span> - $</span> 49</h3>
-                                    <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <ul class="list-unstyled pricing-list margin-b-50">
-                                    <li class="pricing-list-item">Basic Features</li>
-                                    <li class="pricing-list-item">Up to 5 products</li>
-                                    <li class="pricing-list-item">50 Users Panels</li>
-                                </ul>
-                                <a href="pricing.html" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Choose</a>
-                            </div>
-                            <!-- End Pricing -->
-                        </div>
-                    </div>
-                    <div class="col-sm-4 sm-margin-b-2">
-                        <div class="wow fadeInUp" data-wow-duration=".3" data-wow-delay=".2s">
-                            <!-- Pricing -->
-                            <div class="pricing pricing-active">
-                                <div class="margin-b-30">
-                                    <i class="pricing-icon icon-badge"></i>
-                                    <h3>Professional <span> - $</span> 149</h3>
-                                    <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <ul class="list-unstyled pricing-list margin-b-50">
-                                    <li class="pricing-list-item">Basic Features</li>
-                                    <li class="pricing-list-item">Up to 100 products</li>
-                                    <li class="pricing-list-item">100 Users Panels</li>
-                                </ul>
-                                <a href="pricing.html" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Choose</a>
-                            </div>
-                            <!-- End Pricing -->
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="wow fadeInRight" data-wow-duration=".3" data-wow-delay=".1s">
-                            <!-- Pricing -->
-                            <div class="pricing">
-                                <div class="margin-b-30">
-                                    <i class="pricing-icon icon-shield"></i>
-                                    <h3>Advanced <span> - $</span> 249</h3>
-                                    <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <ul class="list-unstyled pricing-list margin-b-50">
-                                    <li class="pricing-list-item">Extended Features</li>
-                                    <li class="pricing-list-item">Unlimited products</li>
-                                    <li class="pricing-list-item">Unlimited Users Panels</li>
-                                </ul>
-                                <a href="pricing.html" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Choose</a>
-                            </div>
-                            <!-- End Pricing -->
-                        </div>
+            <div class="row row-space-1 margin-b-2">
+                <div class="col-sm-6 sm-margin-b-2">
+                
+                </div>
+                <div class="col-sm-6">
+                    <div class="wow fadeInRight" data-wow-duration=".3" data-wow-delay=".2s">
+                        <!-- <div class="service" data-height="height">
+                            <h3>Useful Documentation</h3> -->
+                            <img class="img-responsive" src="img\workshops\workshop_02.jpg" alt="Workshop 2">
+                            <a href="#" class="content-wrapper-link"></a>    
+                        <!-- </div> -->
                     </div>
                 </div>
-                <!--// end row -->
             </div>
+            <!--// end row -->
+
+            <div class="row row-space-1">
+                <div class="col-sm-6 sm-margin-b-2">
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".4s">
+                        <!-- <div class="service" data-height="height">
+                            <h3>Fast Delivery</h3> -->
+                            <img class="img-responsive" src="img\workshops\workshop_03.jpg" alt="Workshop 3">
+                            <a href="#" class="content-wrapper-link"></a>    
+                        <!-- </div> -->
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                </div>
+            </div>
+            <!--// end row -->
+            <div class="row row-space-1">
+                <div class="col-sm-6"></div>
+                <div class="col-sm-6 sm-margin-b-2">
+                    <div class="wow fadeInRight" data-wow-duration=".3" data-wow-delay=".4s">
+                        <!-- <div class="service" data-height="height">
+                            <h3>Fast Delivery</h3> -->
+                            <img class="img-responsive" src="img\workshops\workshop_04.jpg" alt="Workshop 3">
+                            <a href="#" class="content-wrapper-link"></a>    
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+            <!--// end row -->
+            <!--// end row -->
+            <div class="row row-space-1">
+                <div class="col-sm-6 sm-margin-b-2">
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".4s">
+                        <!-- <div class="service" data-height="height">
+                            <h3>Fast Delivery</h3> -->
+                            <img class="img-responsive" src="img\workshops\workshop_05.jpg" alt="Workshop 3">
+                            <a href="#" class="content-wrapper-link"></a>    
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+            <!--// end row -->
+            <!--// end row -->
+            <div class="row row-space-1">
+                <div class="col-sm-6"></div>
+                <div class="col-sm-6 sm-margin-b-2">
+                    <div class="wow fadeInRight" data-wow-duration=".3" data-wow-delay=".4s">
+                        <!-- <div class="service" data-height="height">
+                            <h3>Fast Delivery</h3> -->
+                            <img class="img-responsive" src="img\workshops\workshop_06.jpg" alt="Workshop 3">
+                            <a href="#" class="content-wrapper-link"></a>    
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+            <!--// end row -->
+            <!--// end row -->
+            <div class="row row-space-1">
+                <div class="col-sm-6 sm-margin-b-2">
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".4s">
+                        <!-- <div class="service" data-height="height">
+                            <h3>Fast Delivery</h3> -->
+                            <img class="img-responsive" src="img\workshops\workshop_07.jpg" alt="Workshop 3">
+                            <a href="#" class="content-wrapper-link"></a>    
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+            <!--// end row -->
+            <!--// end row -->
+            <div class="row row-space-1">
+                <div class="col-sm-6"></div>
+                <div class="col-sm-6 sm-margin-b-2">
+                    <div class="wow fadeInRight" data-wow-duration=".3" data-wow-delay=".4s">
+                        <!-- <div class="service" data-height="height">
+                            <h3>Fast Delivery</h3> -->
+                            <img class="img-responsive" src="img\workshops\workshop_08.jpg" alt="Workshop 3">
+                            <a href="#" class="content-wrapper-link"></a>    
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+            <!--// end row -->
         </div>
-        <!-- End Pricing -->
+        <!-- End Past Workshops -->
+
         <!--========== END PAGE LAYOUT ==========-->
 
         <!--========== FOOTER ==========-->
@@ -265,37 +284,35 @@
             <div class="footer-seperator">
                 <div class="content-lg container">
                     <div class="row">
-                        <div class="col-sm-2 sm-margin-b-50">
+                        <div class="col-sm-4 sm-margin-b-50">
                             <!-- List -->
+                            <h2 class = "footer-list-link" >Overview</h2>
                             <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Home</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">About</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Products</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Pricing</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Clients</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Careers</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Contact</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Terms</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="index.html">Home</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="events.html">Events</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="workshops.html">Workshops</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="aihack.html">AI Hack</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="joinus.html">Join Us</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="workwithus.html">Work With Us</a></li>
                             </ul>
                             <!-- End List -->
                         </div>
                         <div class="col-sm-4 sm-margin-b-30">
                             <!-- List -->
-                            <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Twitter</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Facebook</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Instagram</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">YouTube</a></li>
-                            </ul>
+                            <h2 class = "footer-list-link">Contact Us</h2>
+                            <p class="footer-list-item">
+                                Email: icdss@imperial.ac.uk
+                            </p>
                             <!-- End List -->
+                            <a href="https://www.facebook.com/icdatasoc/" class="fa fa-facebook"></a>
+                            <a href="https://www.linkedin.com/company/imperial-college-data-science-society/" class="fa fa-linkedin"></a>
+                            <a href="https://github.com/Imperial-College-Data-Science-Society" class="fa fa-github"></a>
                         </div>
-                        <div class="col-sm-5 sm-margin-b-30">
-                            <h2 class="color-white">Send Us A Note</h2>
-                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Name" required>
-                            <input type="email" class="form-control footer-input margin-b-20" placeholder="Email" required>
-                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Phone" required>
-                            <textarea class="form-control footer-input margin-b-30" rows="6" placeholder="Message" required></textarea>
-                            <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Submit</button>
+                        <div class="col-sm-4 sm-margin-b-30">
+                            <!-- List -->
+                            <h2 class = "footer-list-link">Location</h2>
+                            <p class="footer-list-item">Imperial College London,<br>South Kensington Campus,<br>Exhibition Road,<br>SW7 2AZ</p>
+                            <!-- End List -->
                         </div>
                     </div>
                     <!--// end row -->
@@ -307,7 +324,7 @@
             <div class="content container">
                 <div class="row">
                     <div class="col-xs-6">
-                        <img class="footer-logo" src="img/logos/LOGO dark.png" alt="ICDSS Logo">
+                        <img class="footer-logo" src="img/logos/LOGO white.png" alt="ICDSS Logo">
                     </div>
                 </div>
                 <!--// end row -->

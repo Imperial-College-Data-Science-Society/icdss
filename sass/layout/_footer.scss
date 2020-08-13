@@ -3,7 +3,7 @@
 ------------------------------------------------------------------*/
 
 .footer {
-	background: url(../img/1920x1080/03.jpg) no-repeat;
+	background: url(../img/1920x1080/footer_image.jpg) no-repeat;
     background-size: cover;
 	background-position: center center;
 
@@ -35,6 +35,10 @@
 
 		&-logo {
 			@include size(85px, auto);
+		}
+
+		&-contactlogo {
+			@include size(50px, auto);
 		}
 	}
 
