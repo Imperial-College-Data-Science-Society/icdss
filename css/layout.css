@@ -887,7 +887,7 @@ h4 {
 
 .carousel-centered {
   position: absolute;
-  top: 50%;
+  top: 60%;
   -webkit-transform: translate3d(0, -50%, 0);
   -moz-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0); }
