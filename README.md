@@ -12,6 +12,6 @@ To compile the Sass files to update the CSS files, either use the VS Code Plugin
 
 # Limitations and Issues
 
-Currently github pages are served to "https:\\www.icdss.club". However, despite adding the forwarding settings on GoDaddy, only the http version of the naked domain will be forwarded to the www subdomain. 
+Currently github pages are served to "https://www.icdss.club". However, despite adding the forwarding settings on GoDaddy, only the http version of the naked domain will be forwarded to the www subdomain. 
 
-So only "http:\\icdss.club" can be redirected but  "https:\\icdss.club" will face privacy issue. Apparently this is a limitation on GoDaddy as they currently are not able to forward https naked domain to the www subdomain. https://sg.godaddy.com/community/Managing-Domains/Godaddy-Domain-Does-Not-redirect-when-you-add-https-to-it/td-p/136971
+So only "http://icdss.club" can be redirected but  "https://icdss.club" will face privacy issue. Apparently this is a limitation on GoDaddy as they currently are not able to forward https naked domain to the www subdomain. https://sg.godaddy.com/community/Managing-Domains/Godaddy-Domain-Does-Not-redirect-when-you-add-https-to-it/td-p/136971
