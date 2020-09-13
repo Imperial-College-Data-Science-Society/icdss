@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 { @include font($size: 40px); }
 h2 { @include font($size: 30px); }
 h3 { @include font($size: 22px); }
-h4 { @include font($size: 22px); }
+h4 { @include font($size: 18px); }
 
 ::selection {
     color: $color-white;
@@ -121,5 +121,9 @@ h4 { @include font($size: 22px); }
 }
 
 .center {
-    text-align:center;
+    text-align: center;
+}
+.col-center {
+    // float: none;
+    margin: auto;
 }
