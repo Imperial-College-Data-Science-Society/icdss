@@ -44,7 +44,7 @@
 }
 
 .carousel-centered {
-    @include position(absolute, $top: 60%);
+    @include position(absolute, $top: 55%);
     @include translate3d(0,-50%,0);
 }
 
@@ -57,6 +57,6 @@
 
 @media (max-width: $screen-sm-min) {
     .carousel-title {
-        @include font($size: 60px);
+        @include font($size: 45px);
     }    
 }

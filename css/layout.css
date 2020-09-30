@@ -890,7 +890,7 @@ h4 {
 
 .carousel-centered {
   position: absolute;
-  top: 60%;
+  top: 55%;
   -webkit-transform: translate3d(0, -50%, 0);
   -moz-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0); }
@@ -904,7 +904,7 @@ h4 {
 
 @media (max-width: 768px) {
   .carousel-title {
-    font-size: 60px; } }
+    font-size: 45px; } }
 
 /*----------------------------------
   Custome Style of Info Window
